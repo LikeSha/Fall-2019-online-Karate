@@ -40,7 +40,7 @@ Feature: Spartan API tests
 #    Given path '/api/spartans/203'
 #    When method delete
 #    Then status 204
-#    * request spartan - body of request
+#    * request spartan - (to provide) body of request
 #    * def spartan = read('spartan.json') - spartan is a variable
 
   Scenario: Add new spartan from external JSON file
