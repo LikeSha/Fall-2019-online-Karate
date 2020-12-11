@@ -13,6 +13,8 @@ Feature: OMDB API tests
 
 # status 401 means ?
 # when you print only " response" , it print jason body only , not like pretty(response) ,it print header+body
+# we print first ,and check info from console, we saw ERROR NO API key provided,  based on this info
+#we added one line code after status 401 :   And assert response.Error == 'No API key provided.'
 
   Scenario: Verify movie info
     Given param t = 'Karate'
